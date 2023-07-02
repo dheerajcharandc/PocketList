@@ -2,7 +2,6 @@ import React,{useEffect, useState} from 'react'
 import "./Content.css"
 import pic from "../../assets/Submit.png"
 import back from "../../assets/back.png"
-// import HomePage from '../Homepage/HomePage'
 const Content = ({listId,listname,Color}) => {
 
     const[message,setMessage]=useState('');
@@ -25,15 +24,12 @@ const Content = ({listId,listname,Color}) => {
     const handleGetData=()=>{
         if (message.trim() !== '') {
             const currentDate = new Date();
-
             const options = {
               hour: 'numeric',
               minute: 'numeric',
               hour12: true,
             };
-      
             const formattedTime = currentDate.toLocaleTimeString('en-US', options);
-
             const day = currentDate.getDate();
             const month = currentDate.toLocaleString('en-US', { month: 'short' });
             const year = currentDate.getFullYear();
@@ -57,8 +53,7 @@ const Content = ({listId,listname,Color}) => {
     useEffect(()=>{
         localStorage.setItem('options',JSON.stringify(messages));
     },[messages]);
-
-
+    
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
       handleGetData();
@@ -78,10 +73,8 @@ const Content = ({listId,listname,Color}) => {
             <li className="C__li1 " style={{'--bg__color':Color}}>{listname && listname.substring(0,2)}</li>
             <li className='C__li2'>{listname}</li>
         </div>
-        
-         {/* {homepage && <HomePage/>} */}
+    
         <div className='Conversation'>
-           
             {filteredMessages.map((itemss, index) => {
                 return (
                     <div key={index} className='Content__div'>
