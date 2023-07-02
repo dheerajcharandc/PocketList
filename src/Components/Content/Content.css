@@ -1,0 +1,151 @@
+@import 'https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:ital,wght@0,300;1,100&family=Single+Day&display=swap';
+
+.Content{
+    display: flex;
+    flex-direction: column;
+}
+.Conv__bottom{
+background-color: #E8E8E8;
+width :100%;
+height: 25vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Content__input{
+    width: 94%;
+    height: 120px;
+    border-radius: 9px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    color: #9A9A9A;
+    font-size: 23.816px;
+    font-family: Roboto;
+    letter-spacing: 0.596px;
+    padding-right: 10px;
+    resize: none;
+}
+.Content__input::placeholder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.C__button {
+    position: absolute;
+    top: 560px;
+    right: 40px;
+   border: none;
+   background: none;
+   cursor: pointer;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .Conversation{
+    background-color: #F7ECDC;
+    height:61vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+  .Content__div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+.TimeColumn{
+    display: flex;
+    flex: 20%;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #353535;
+    font-size: 16.634px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.688%;
+    letter-spacing: 0.373px;
+}
+  .MessageColumn{
+    display: flex;
+    align-items: center;
+    flex: 80%;
+    margin-right: 40px;
+    word-break: break-word;
+    color: #000;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.63px;
+  }
+  .Conv__top{
+    background-color: #E8E8E8;
+    width :100%;
+    height: 14vh;
+    display: flex; 
+    align-items: center;
+    
+}
+  .C__li1{
+    display:flex; 
+    align-Items:center;
+    background-color: var(--bg__color);
+    width:54px;
+    height:54px;
+    border-Radius:50%;
+    justify-Content:center;
+    margin-left:40px ;
+    margin-right:20px;
+    text-transform:uppercase;
+    color: #FFF;
+    font-size: 20.67px;
+    font-family: Roboto;
+    font-weight: 600;
+    letter-spacing: 0.482px;
+    list-style: none;
+  }
+
+  .C__li2{
+display: flex;
+align-items: center;
+color: #000;
+font-size: 20.67px;
+font-family: Roboto;
+font-weight: 600;
+letter-spacing: 0.413px;
+list-style: none;
+  }
+  .back__button{
+    display: none;
+  }
+
+@media(max-width:400px){
+    .Content__div{
+        display: flex;
+        align-items: first baseline;
+    }
+    .TimeColumn{
+        font-size: 11px;
+        gap:3px;
+    }
+    .MessageColumn{
+        font-size: 12px;
+        margin-right: 10px;
+        margin-left: 9px;
+    }
+    .back__button{
+      display: flex;
+      background: none;
+      border: none;
+      margin-left: 20px;
+    }
+    .C__li1{margin-left:5px ;
+
+    }
+}
