@@ -8,9 +8,9 @@ import e from "../../assets/e.png"
 import f from "../../assets/f.png"
 const Create = ({onCreate}) => {
     const [Input,setInput]=useState('');
-
+    
     const [selectcolor,setselectColor]=useState('');
-
+    
     const handleInputChange=(e)=>{
         setInput(e.target.value);
     };
@@ -20,13 +20,11 @@ const Create = ({onCreate}) => {
     };
     
     const handleCreates=(e)=>{
-       
         e.preventDefault();
         onCreate(Input,selectcolor);
         setInput('');
         setselectColor(''); 
     };
-
 
   return (
     <div className='.create'>
