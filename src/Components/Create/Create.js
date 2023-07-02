@@ -8,7 +8,6 @@ import e from "../../assets/e.png"
 import f from "../../assets/f.png"
 const Create = ({onCreate}) => {
     const [Input,setInput]=useState('');
-    
     const [selectcolor,setselectColor]=useState('');
     
     const handleInputChange=(e)=>{
