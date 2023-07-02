@@ -1,18 +1,12 @@
 @import 'https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:ital,wght@0,300;1,100&family=Single+Day&display=swap';
-
-/* .create{
-    height: 20%;
-    width: 20%;
-    background-color: #FFFFFF;
-} */
 .Cp1{
-color: #000;
-font-size: 19px;
-font-family: Roboto;
-font-weight: 600;
-line-height: 160.188%;
-letter-spacing:0.8px;
-margin-left: 10px;
+    color: #000;
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 160.188%;
+    letter-spacing:0.8px;
+    margin-left: 10px;
 }
 .C__input{
     display: flex;
@@ -20,22 +14,22 @@ margin-left: 10px;
     align-items: center;
 }
 .Cinput{
-border-radius: 15px;
-border: 2px solid #CCC;
-background: #FFF;
-width: 60%;
-height: 19px;
-flex-shrink: 0;
-border-color: #CCC;
-text-align: center;
+    border-radius: 15px;
+    border: 2px solid #CCC;
+    background: #FFF;
+    width: 60%;
+    height: 19px;
+    flex-shrink: 0;
+    border-color: #CCC;
+    text-align: center;
 }
 .Cs1{
-color: #000;
-font-size: 15.314px;
-font-family: Roboto;
-font-weight: 600;
-line-height: 160.188%;
-letter-spacing: 0.7px;
+    color: #000;
+    font-size: 15.314px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 160.188%;
+    letter-spacing: 0.7px;
 }
 .buttons{
     width: 60%;
@@ -44,12 +38,11 @@ letter-spacing: 0.7px;
 .buttons button{
     padding: 5px;
     margin-right: 10px;
-     border: none;
-     cursor: pointer;
-     background: none; 
-     width: 20px;
+    border: none;
+    cursor: pointer;
+    background: none; 
+    width: 20px;
 }
-
 .C__buttons{
     display: flex;
     justify-content: space-evenly;
