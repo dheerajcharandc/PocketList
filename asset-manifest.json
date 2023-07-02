@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PocketList/static/css/main.c5bea1ed.css",
+    "main.js": "/PocketList/static/js/main.91737394.js",
+    "static/media/BackgroundImage.png": "/PocketList/static/media/BackgroundImage.051c5dd6cf08bd17366f.png",
+    "index.html": "/PocketList/index.html",
+    "main.c5bea1ed.css.map": "/PocketList/static/css/main.c5bea1ed.css.map",
+    "main.91737394.js.map": "/PocketList/static/js/main.91737394.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5bea1ed.css",
+    "static/js/main.91737394.js"
+  ]
+}
