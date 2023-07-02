@@ -44,11 +44,8 @@ function HomePage() {
   };
   
   const [data,setData]=useState(getLocalItems());
-
-
   
   const handelGetData = (Input, selectcolor) => {
-    
     const newData = {
       id: uuidv4(),
       name: Input,
