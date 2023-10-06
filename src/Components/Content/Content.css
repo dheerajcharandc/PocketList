@@ -34,8 +34,8 @@
 }
 .C__button {
     position: absolute;
-    top: 560px;
-    right: 40px;
+    bottom:30px;
+    right: 30px;
     border: none;
     background: none;
     cursor: pointer;
@@ -145,5 +145,12 @@
     }
     .C__li1{
         margin-left:5px ;
+    }
+       .Content__input{
+      height: 120px;
+    }
+    .C__button{
+      right: 10px;
+      bottom: 10px;
     }
 }
