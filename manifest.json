@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "PocketList",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,15 +8,11 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://cdn.pixabay.com/photo/2016/03/31/19/50/checklist-1295319_1280.png",
       "type": "image/png",
       "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
+ 
   ],
   "start_url": ".",
   "display": "standalone",
